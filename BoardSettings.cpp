@@ -325,7 +325,8 @@ void setCursorForBoard(Players player, int &pairs) {
 }
 void initializeTheBoard(Players &player, int &pairs, int cntRound) {
     getBackground(cntRound);
-    time_t start1, finish1;
+    // ref: https://www.programiz.com/cpp-programming/library-function/ctime/difftime
+    time_t start1, finish1; // count time per round
     resetTheBoard();
     while (!findSuggestion(false)) {
         shuffle();
@@ -621,14 +622,16 @@ void setCursorForBoardLL(Players &player, int &pair) {
 
 
 void initializeTheBoardLL(Players &player, int &pairs) {
-
+    time_t start2, finish2;
     allocTheBoardLL();
     setTheBoardLL();
     while(!findSuggestionLL(false))
         shuffleLL();
 
     showTheBoardLL(boardLL[0]);
-
+    time(&start2);
     setCursorForBoardLL(player , pairs);
-
+    time(&finish2);
+    int time = difftime(finish2, start2);
+    countTime(time, player);
 }

@@ -3,16 +3,11 @@
 void openRound1(Players &player) {
     int cntRound = 1; int pairs = 0;
     while(cntRound < 4) {
-        time_t start1, finish1;             // ref: https://www.programiz.com/cpp-programming/library-function/ctime/difftime
         showTitleRound(player, cntRound);
         timeOff = false;
         finishGame = false;
         createTimerCount();
-        time(&start1);
         initializeTheBoard(player, pairs, cntRound);
-        time(&finish1);
-        int time = difftime(finish1, start1);
-        countTime(time, player);
         if(finishGame == false)
             break;
         Sleep(1000);

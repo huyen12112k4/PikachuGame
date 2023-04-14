@@ -10,7 +10,7 @@ void playSoundWhenSelectRight(){
     PlaySound(TEXT("./Sound/Selectright.wav"), NULL, SND_ASYNC);
 }
 void playSoundWhenSelectWrong() {
-    PlaySound(TEXT("./Sound/Select_false.wav"), NULL, SND_ASYNC);
+    PlaySound(TEXT("./Sound/SelectFalse.wav"), NULL, SND_ASYNC);
 }
 
 void playSoundYouWin(){

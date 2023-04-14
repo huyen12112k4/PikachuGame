@@ -333,3 +333,188 @@
 	<windows.h>
 	"mmsystem.h"
 
+1681265597 source:c:\users\asus\documents\github\pikachugame\assets.cpp
+	"Assets.h"
+
+1681459506 c:\users\asus\documents\github\pikachugame\assets.h
+	<conio.h>
+
+1681490732 source:c:\users\asus\documents\github\pikachugame\background.cpp
+	"Background.h"
+
+1681410203 c:\users\asus\documents\github\pikachugame\background.h
+	<fstream>
+	<sstream>
+	"Models.h"
+
+1681460109 c:\users\asus\documents\github\pikachugame\models.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+
+1681312176 c:\users\asus\documents\github\pikachugame\consolesettings.h
+	<Windows.h>
+	<iostream>
+	<pthread.h>
+	<iomanip>
+	"Assets.h"
+
+1681504309 source:c:\users\asus\documents\github\pikachugame\boardsettings.cpp
+	"BoardSettings.h"
+
+1681486939 c:\users\asus\documents\github\pikachugame\boardsettings.h
+	<iostream>
+	<Windows.h>
+	<time.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"Models.h"
+	"Timing.h"
+	"Checking.h"
+	"MoveSuggestion.h"
+	"Background.h"
+	"sound.h"
+
+1681308578 c:\users\asus\documents\github\pikachugame\timing.h
+	<iostream>
+	"ConsoleSettings.h"
+	"Models.h"
+
+1681308347 c:\users\asus\documents\github\pikachugame\checking.h
+	<iostream>
+	"ConsoleSettings.h"
+	"Models.h"
+	"Background.h"
+
+1681459761 c:\users\asus\documents\github\pikachugame\movesuggestion.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Checking.h"
+
+1681177185 c:\users\asus\documents\github\pikachugame\sound.h
+	<windows.h>
+	"mmsystem.h"
+
+1681468940 source:c:\users\asus\documents\github\pikachugame\checking.cpp
+	"Checking.h"
+
+1681490236 source:c:\users\asus\documents\github\pikachugame\consolesettings.cpp
+	"ConsoleSettings.h"
+
+1681490842 source:c:\users\asus\documents\github\pikachugame\gamefinishverify.cpp
+	"Gamefinishverify.h"
+
+1681308710 c:\users\asus\documents\github\pikachugame\gamefinishverify.h
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	"Leaderboard.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Timing.h"
+
+1681271644 c:\users\asus\documents\github\pikachugame\leaderboard.h
+	<fstream>
+	<string>
+	<sstream>
+	"ConsoleSettings.h"
+
+1681487252 source:c:\users\asus\documents\github\pikachugame\inputplayer.cpp
+	"inputPlayer.h"
+
+1681487290 c:\users\asus\documents\github\pikachugame\inputplayer.h
+	<iostream>
+	"Models.h"
+	"ConsoleSettings.h"
+	"sound.h"
+
+1681491066 source:c:\users\asus\documents\github\pikachugame\leaderboard.cpp
+	"leaderboard.h"
+
+1681487061 source:c:\users\asus\documents\github\pikachugame\main.cpp
+	"ConsoleSettings.h"
+	"header.h"
+
+1681313630 c:\users\asus\documents\github\pikachugame\header.h
+	<iostream>
+	"StartingHome.h"
+	"Assets.h"
+	<windows.h>
+	"mmsystem.h"
+
+1681487825 c:\users\asus\documents\github\pikachugame\startinghome.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"inputPlayer.h"
+	"RoundOneWithUnchangeBoard.h"
+	"RoundTwoWithChangeLeft.h"
+	"Tutorials.h"
+	"Leaderboard.h"
+	"Setting.h"
+	"Models.h"
+	"sound.h"
+
+1681487867 c:\users\asus\documents\github\pikachugame\roundonewithunchangeboard.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Gamefinishverify.h"
+	"sound.h"
+
+1681487921 c:\users\asus\documents\github\pikachugame\roundtwowithchangeleft.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Gamefinishverify.h"
+	"sound.h"
+
+1681265598 c:\users\asus\documents\github\pikachugame\tutorials.h
+	<iostream>
+	<fstream>
+	"ConsoleSettings.h"
+	"Assets.h"
+
+1681312277 c:\users\asus\documents\github\pikachugame\setting.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+
+1681468446 source:c:\users\asus\documents\github\pikachugame\models.cpp
+	"Models.h"
+
+1681459107 source:c:\users\asus\documents\github\pikachugame\movesuggestion.cpp
+	"MoveSuggestion.h"
+
+1681504140 source:c:\users\asus\documents\github\pikachugame\roundonewithunchangeboard.cpp
+	"RoundOneWithUnchangeBoard.h"
+
+1681503977 source:c:\users\asus\documents\github\pikachugame\roundtwowithchangeleft.cpp
+	"RoundTwoWithChangeLeft.h"
+
+1681459341 source:c:\users\asus\documents\github\pikachugame\setting.cpp
+	"Setting.h"
+
+1681504774 source:c:\users\asus\documents\github\pikachugame\sound.cpp
+	"sound.h"
+
+1681491039 source:c:\users\asus\documents\github\pikachugame\startinghome.cpp
+	"StartingHome.h"
+
+1681503907 source:c:\users\asus\documents\github\pikachugame\timing.cpp
+	"Timing.h"
+
+1681491464 source:c:\users\asus\documents\github\pikachugame\tutorials.cpp
+	"Tutorials.h"
+
