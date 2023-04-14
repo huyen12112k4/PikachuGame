@@ -3,7 +3,7 @@
 void openRound1(Players &player) {
     int cntRound = 1; int pairs = 0;
     while(cntRound < 4) {
-        time_t start1, finish1;
+        time_t start1, finish1;             // ref: https://www.programiz.com/cpp-programming/library-function/ctime/difftime
         showTitleRound(player, cntRound);
         timeOff = false;
         finishGame = false;

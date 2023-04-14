@@ -2,7 +2,7 @@
 
 void printThankYou() {
     ifstream ifs;
-    ifs.open("./image_finish/thanks.txt");
+    ifs.open("./image_game/image_finish/Thanks.txt");
 
     if(!ifs.is_open()) {
         cout << "No opening file";
@@ -20,7 +20,7 @@ void printThankYou() {
 }
 void printDesign() {
     ifstream ifs;
-    ifs.open("./image_finish/star.txt");
+    ifs.open("./image_game/image_finish/Star.txt");
 
     if(!ifs.is_open()) {
         cout << "No opening file";
@@ -39,7 +39,7 @@ void printDesign() {
 
 void printBackroughFinish(){
     ifstream ifs;
-    ifs.open("./image_finish/Youwin.txt");
+    ifs.open("./image_game/image_finish/YouWin.txt");
 
     if(!ifs.is_open()) {
         cout << "No opening file";
@@ -59,7 +59,7 @@ void printBackroughFinish(){
 
 void printYouLose(){
     ifstream ifs;
-    ifs.open("./image_finish/YOULOSE.txt");
+    ifs.open("./image_game/image_finish/YouLose.txt");
 
     if(!ifs.is_open()) {
         cout << "No opening file";

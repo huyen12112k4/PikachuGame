@@ -78,7 +78,7 @@ int getMoveFromKeyboard() {
 
     if ((int) c == -32)
         c = getch();
-    Beep(400, 90);
+    Beep(300, 90);
     switch ((int) c) {
 
         case 80:

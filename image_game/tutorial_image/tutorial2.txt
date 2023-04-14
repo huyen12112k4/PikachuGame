@@ -1,0 +1,21 @@
+                    ---------------------------------------------------------------------------------
+                   |                       [^]                                                       |
+                   |     Use ARROW KEYS [<][V][>] to move and press [ENTER] to select NODE           |
+                   |                                                                                 |
+                   |     Press [H] to GET HINT, you will have 3 HINTS each round                     |
+                   |                                                                                 |
+                   |     Press [Esc] to SAVE GAME and return to Starting Home                        |
+                   |                                                                                 |
+                   |     Access the SETTINGS and choose the game mode you want to play in            |
+                   |                                                                                 |
+                   |     To achieve victory and be ranked in LEADERBOARD, you need to pass 3 ROUNDS  |
+                   |                                                                                 |
+                   |     For each round, you have lasting 3 MINUTES                                  |
+                   |                                                                                 |
+                   |     You only have 10 LIVES each round, so be careful when making your choices.  |
+                   |                                                                                 |
+                   |                                                                                 |
+                   |                                                Wish you happy gaming !!         |
+                    ---------------------------------------------------------------------------------
+
+                                                                Press --> to return Staring Home

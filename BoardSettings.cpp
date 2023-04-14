@@ -543,7 +543,6 @@ void setCursorForBoardLL(Players &player, int &pair) {
                         node1 = currentNode;
                         gotoxy(0, 1);
                         color(YELLOW);
-                        cout << "Node1: " << ((*node1) -> x - 2) / 8 << " " << ((*node1) -> y - 2) / 4;
                         cntNumberOfSelectedNode++;
                     }
                     else {
@@ -615,7 +614,6 @@ void setCursorForBoardLL(Players &player, int &pair) {
             }
             gotoxy(0, 0);
             color(YELLOW);
-            cout <<"Cur: " << ((*currentNode) -> x - 2) / 8 << " " << ((*currentNode) -> y - 2) / 4 << endl;
             (**currentNode).isCurrentCursorLL((**currentNode).x, (**currentNode).y);
         }
     }

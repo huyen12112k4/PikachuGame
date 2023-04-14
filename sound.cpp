@@ -1,7 +1,7 @@
 #include "sound.h"
-
+// https://learn.microsoft.com/en-us/previous-versions/dd743680(v=vs.85)
 void playSoundWhenStartingGame() {
-    PlaySound(TEXT("StartingHome.wav"), NULL, SND_ASYNC);
+    PlaySound(TEXT("./Sound/StartingHome.wav"), NULL, SND_ASYNC);
 }
 void playSoundWhenPressKey() {
     PlaySound(TEXT("./Sound/PressKey.wav"), NULL, SND_ASYNC);

@@ -3,41 +3,43 @@
 void printTileGame() {
     gotoxy(0,0);
     color(BROWN);
-    string title = R"(
-                                                                              ,'\
-                                                _.----.        ____         ,'  _\   ___    ___     ____
-                                            _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.   `;-.          ___,
-                                            \      __    \    '-.  | /   `.  ___    |    \/    |   '-.   \ |  |   `.`\_...._/`.-"`
-                                             \.    \ \   |  __  |  |/    ,','_  `.  |          | __  |    \|  |     \        /      ,
-                                               \    \/   /,' _`.|      ,' / / / /   |          ,' _`.|     |  |     /()   () \    .' `-._
-                                                \     ,-'/  /   \    ,'   | \/ / ,`.|         /  /   \  |     |    |)  .    ()\  /   _.'
-                                                 \    \ |   \_/  |   `-.  \    `'  /|  |    ||   \_/  | |\    |    \  -'-     ,; '. <
-                                                  \    \ \      /       `-.`.___,-' |  |\  /| \      /  | |   |     ;.__     ,;|   > \
-                                                   \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |    / ,    / ,  |.-'.-'
-                                                    \_.-'       |__|    `-._ |              '-.|     '-.| |   |   (_/    (_/ ,;|.<`
-                                                                            `'                            '-._|     \    ,     ;-`
-                                                                                                                     >   \    /
-                                                          ==========================================                (_,-'`> .'
-                                                                                                                         (_,'
-                                            )";
+    ifstream ifs;
+    ifs.open("./image_game/start_image/pokemonWord.txt");
 
-    cout << title;
+    if(!ifs.is_open()) {
+        cout << "No opening file";
+    } else {
+        string tmp;
+        gotoxy(20,1);
+        while(!ifs.eof()){
+            getline(ifs, tmp);
+            cout << tmp;
+            cout << endl;
+        }
+    }
+    ifs.close();
+
 }
 
 void printClass() {
-    color(CYAN); // set color text is Blue
-    cout << R"(
-                                                               ___     ___     ___     _       ___      __     ____
-                                                              |_  )   |_  )   / __|   | |     / __|    /  \   |__ /
-                                                               / /     / /   | (__    | |__  | (__    | () |   |_ \
-                                                              /___|   /___|   \___|   |____|  \___|   _\__/   |___/
-                                                            _|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
-                                                            "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+    // set color text is Blue
+    ifstream ifs;
+    ifs.open("./image_game/start_image/22CLC03.txt");
 
+    if(!ifs.is_open()) {
+        cout << "No opening file";
+    } else {
+        string tmp;
+        gotoxy(25,16);
+        color(CYAN);
+        while(!ifs.eof()){
+            getline(ifs, tmp);
+            cout << tmp;
+            cout << endl;
+        }
+    }
+    ifs.close();
 
-                                                                      ===========================================
-
-                                           )";
 }
 
 void printStartingHomeHeader() {

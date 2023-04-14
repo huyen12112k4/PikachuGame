@@ -32,7 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="2DLinkedList.cpp" />
 		<Unit filename="Assets.cpp" />
 		<Unit filename="Assets.h" />
 		<Unit filename="Background.cpp" />
@@ -47,7 +46,6 @@
 		<Unit filename="Gamefinishverify.h" />
 		<Unit filename="InputPlayer.cpp" />
 		<Unit filename="InputPlayer.h" />
-		<Unit filename="LBDesign.txt" />
 		<Unit filename="Leaderboard.cpp" />
 		<Unit filename="Leaderboard.h" />
 		<Unit filename="Models.cpp" />
@@ -63,29 +61,29 @@
 		<Unit filename="Sound/PressKey.wav" />
 		<Unit filename="Sound/Select_false.wav" />
 		<Unit filename="Sound/Selectright.wav" />
+		<Unit filename="Sound/StartingHome.wav" />
 		<Unit filename="Sound/YouLose.wav" />
-		<Unit filename="Sound/Youwin.wav" />
+		<Unit filename="Sound/YouWin.wav" />
 		<Unit filename="StartingHome.cpp" />
 		<Unit filename="StartingHome.h" />
-		<Unit filename="StartingHome.wav" />
 		<Unit filename="Timing.cpp" />
 		<Unit filename="Timing.h" />
 		<Unit filename="Tutorials.cpp" />
 		<Unit filename="Tutorials.h" />
-		<Unit filename="background/v1.txt" />
-		<Unit filename="background/v2.txt" />
-		<Unit filename="background/v3.txt" />
 		<Unit filename="header.h" />
-		<Unit filename="image_finish/YOULOSE.txt" />
-		<Unit filename="image_finish/Youwin.txt" />
-		<Unit filename="image_finish/star.txt" />
-		<Unit filename="image_finish/thanks.txt" />
+		<Unit filename="image_game/LBDesign.txt" />
+		<Unit filename="image_game/image_finish/Star.txt" />
+		<Unit filename="image_game/image_finish/Thanks.txt" />
+		<Unit filename="image_game/image_finish/YouLose.txt" />
+		<Unit filename="image_game/image_finish/YouWin.txt" />
+		<Unit filename="image_game/start_image/22CLC03.txt" />
+		<Unit filename="image_game/start_image/pokemonWord.txt" />
+		<Unit filename="image_game/tutorial_image/tutorial1.txt" />
+		<Unit filename="image_game/tutorial_image/tutorial2.txt" />
 		<Unit filename="leaderboard.txt" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sound.cpp" />
 		<Unit filename="sound.h" />
-		<Unit filename="tutorial_image/tutorial1.txt" />
-		<Unit filename="tutorial_image/tutorial2.txt" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

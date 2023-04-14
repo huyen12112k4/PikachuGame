@@ -46,7 +46,7 @@ void printLeaderBoard() {
     gotoxy(0,0);
     TopPlayers top[5];
     ifstream ifs;
-    ifs.open("LBDesign.txt");
+    ifs.open("./image_game/LBDesign.txt");
     if(!ifs.is_open()) {
         cout << "No opening file";
     } else {

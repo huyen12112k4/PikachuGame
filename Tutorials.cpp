@@ -4,7 +4,7 @@ void printTutorial1(){
 
     ifstream ifs;
     int x = 25, y = 0;
-    ifs.open("./tutorial_image/tutorial1.txt");
+    ifs.open("./image_game/tutorial_image/tutorial1.txt");
     if(!ifs.is_open()) {
         cout << "No opening file";
     } else {
@@ -25,7 +25,7 @@ void printTutorial2(){
     ifstream in;
     int x = 25, y = 10;
 
-    in.open("./tutorial_image/tutorial2.txt");
+    in.open("./image_game/tutorial_image/tutorial2.txt");
     string text;
    if(!in.is_open()) {
         cout << "No opening file";
