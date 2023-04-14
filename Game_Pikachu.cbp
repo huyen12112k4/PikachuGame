@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game_Pikachu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game_Pikachu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Game_Pikachu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="2DLinkedList.cpp" />
+		<Unit filename="Assets.cpp" />
+		<Unit filename="Assets.h" />
+		<Unit filename="Background.cpp" />
+		<Unit filename="Background.h" />
+		<Unit filename="BoardSettings.cpp" />
+		<Unit filename="BoardSettings.h" />
+		<Unit filename="Checking.cpp" />
+		<Unit filename="Checking.h" />
+		<Unit filename="ConsoleSettings.cpp" />
+		<Unit filename="ConsoleSettings.h" />
+		<Unit filename="Gamefinishverify.cpp" />
+		<Unit filename="Gamefinishverify.h" />
+		<Unit filename="InputPlayer.cpp" />
+		<Unit filename="InputPlayer.h" />
+		<Unit filename="LBDesign.txt" />
+		<Unit filename="Leaderboard.cpp" />
+		<Unit filename="Leaderboard.h" />
+		<Unit filename="Models.cpp" />
+		<Unit filename="Models.h" />
+		<Unit filename="MoveSuggestion.cpp" />
+		<Unit filename="MoveSuggestion.h" />
+		<Unit filename="RoundOneWithUnchangeBoard.cpp" />
+		<Unit filename="RoundOneWithUnchangeBoard.h" />
+		<Unit filename="RoundTwoWithChangeLeft.cpp" />
+		<Unit filename="RoundTwoWithChangeLeft.h" />
+		<Unit filename="Setting.cpp" />
+		<Unit filename="Setting.h" />
+		<Unit filename="Sound/PressKey.wav" />
+		<Unit filename="Sound/Select_false.wav" />
+		<Unit filename="Sound/Selectright.wav" />
+		<Unit filename="Sound/YouLose.wav" />
+		<Unit filename="Sound/Youwin.wav" />
+		<Unit filename="StartingHome.cpp" />
+		<Unit filename="StartingHome.h" />
+		<Unit filename="StartingHome.wav" />
+		<Unit filename="Timing.cpp" />
+		<Unit filename="Timing.h" />
+		<Unit filename="Tutorials.cpp" />
+		<Unit filename="Tutorials.h" />
+		<Unit filename="background/v1.txt" />
+		<Unit filename="background/v2.txt" />
+		<Unit filename="background/v3.txt" />
+		<Unit filename="header.h" />
+		<Unit filename="image_finish/YOULOSE.txt" />
+		<Unit filename="image_finish/Youwin.txt" />
+		<Unit filename="image_finish/star.txt" />
+		<Unit filename="image_finish/thanks.txt" />
+		<Unit filename="leaderboard.txt" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.h" />
+		<Unit filename="tutorial_image/tutorial1.txt" />
+		<Unit filename="tutorial_image/tutorial2.txt" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,95 @@
+username:
+
+Long 500 A
+CaoNhi 200 B
+Huyen 100 C
+Loc 50 D
+Dai 20 E
+
+leaderboard
+
+struct Leaderboard
+
+### file leaderboard.h
+leaderboard topPlayers[5];
+readfile(topPlayers);
+printLeaderboard(topPlayers);
+
+### file leaderboard.cpp
+void ...
+void isLeaderOpen() {
+	readfile();
+	printLeaderboard();
+}
+
+class Players {
+....
+}
+
+### INFORMATION
+
+// 1 - 200 newbie // 1 man - 200
+// 201 - 600 Apprentice // 1 man - 400
+// 601 - 1200 Expert // 1 man - 600
+// > 1200 Master // 1 man - 1200
+// WinGame
+
+// each round gain 200 points, 20 pairs of block (40 blocks), board (8x5)
+
+Players::Players() {
+	int id = new int;
+	string name = new string;
+	long point = new long;
+	string ranking = new string;
+
+	id = 6;
+	name = "";
+	point = 0;
+	ranking = "Newbie";
+	roundWon = 0;
+}
+
+showInforPlayer(player) {
+}
+updatePoint(Players player, long point) {
+	player.point += point;
+}
+void newBieRound(player, ...) {
+	timeOff = TIME;
+	point = 0;
+	hint = 0;
+	...
+	...
+	showInforPlayer(player);
+	showGameArea();
+	while(timeOff--) {
+		showTime(timeOff);
+		showPoint(point);
+		showHint(hint);
+		...
+			// if(selectIsTrue(select)) point += 10;
+	}	
+	if(timeOff) {
+		updatePoint(Player, point);
+		saveInforPlayer(player); // update file Players database
+	}
+}
+
+### GameFinish.h
+void printBackgroundFinish();
+void printResult(name, pointer, ranking);
+void printDesign();
+void checkLeaderboard(player); // type struct Player
+
+### GameFinish.cpp
+void checkLeaderboard(Players player);
+	readfile();
+	pos = findPositionOfPlayer(player);
+	if(pos > 5) return;
+	else updateFileLeaderBoard(); // chen player vao dung vi tri, xoa thang thu 6 khoi file leaderboard
+
+int main()
+{
+	
+	
+}

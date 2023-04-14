@@ -1,0 +1,26 @@
+
+
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    x                                                                              x
+                    x   @@@ @@@   @@@@@@   @@@  @@@     @@@        @@@@@@    @@@@@@   @@@@@@@@     x
+                    x   @@@ @@@  @@@@@@@@  @@@  @@@     @@@       @@@@@@@@  @@@@@@@   @@@@@@@@     x
+                    x   @@! !@@  @@!  @@@  @@!  @@@     @@!       @@!  @@@  !@@       @@!          x
+                    x   !@! @!!  !@!  @!@  !@!  @!@     !@!       !@!  @!@  !@!       !@!          x
+                    x    !@!@!   @!@  !@!  @!@  !@!     @!!       @!@  !@!  !!@@!!    @!!!:!       x
+                    x     @!!!   !@!  !!!  !@!  !!!     !!!       !@!  !!!   !!@!!!   !!!!!:       x
+                    x     !!:    !!:  !!!  !!:  !!!     !!:       !!:  !!!       !:!  !!:          x
+                    x     :!:    :!:  !:!  :!:  !:!      :!:      :!:  !:!      !:!   :!:          x
+                    x      ::    ::::: ::  ::::: ::      :: ::::  ::::: ::  :::: ::    :: ::::     x
+                    x       :      : :  :    : :  :      : :: : :   : :  :   :: : :    : :: ::     x
+                    x                                                                              x
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                                 Numbers of pairs left:            Numbers of pairs valid:
+
+
+
+
+
+
+
+                                       PRESS --> TO TRY AGAIN OR (ALT + F4) TO EXIT

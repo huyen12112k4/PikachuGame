@@ -1,0 +1,335 @@
+# depslib dependency file v1.0
+1681129010 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\main.cpp
+	"ConsoleSettings.h"
+	"header.h"
+
+1681139374 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\startinghome.cpp
+	"StartingHome.h"
+
+1680614084 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\startinghome.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"inputPlayer.h"
+	"RoundOneWithUnchangeBoard.h"
+	"RoundTwoWithChangeLeft.h"
+	"Tutorials.h"
+	"Leaderboard.h"
+
+1680594026 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\consolesettings.h
+	<Windows.h>
+	<iostream>
+	<pthread.h>
+	<iomanip>
+	"Assets.h"
+
+1681035852 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\consolesettings.cpp
+	"ConsoleSettings.h"
+
+1680490800 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\header.h
+	<iostream>
+	"StartingHome.h"
+	"Assets.h"
+
+1681035852 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\assets.h
+	<conio.h>
+	<iostream>
+	<string>
+
+1680054406 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\assets.cpp
+	"Assets.h"
+
+1680594026 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\inputplayer.cpp
+	"inputPlayer.h"
+
+1681183103 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\models.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+
+1681183103 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\models.cpp
+	"Models.h"
+
+1681035852 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\roundonewithunchangeboard.cpp
+	"RoundOneWithUnchangeBoard.h"
+
+1680614084 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\roundonewithunchangeboard.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Gamefinishverify.h"
+
+1680490800 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\inputplayer.h
+	<iostream>
+	"StartingHome.h"
+	"Models.h"
+	"ConsoleSettings.h"
+
+1681035998 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\boardsettings.h
+	<iostream>
+	<Windows.h>
+	<time.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"Models.h"
+	"Gamefinishverify.h"
+	"Checking.h"
+	"MoveSuggestion.h"
+
+1681189727 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\boardsettings.cpp
+	"BoardSettings.h"
+
+1680969131 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\gamefinishverify.h
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	"ConsoleSettings.h"
+	"Leaderboard.h"
+	"Models.h"
+
+1680969131 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\gamefinishverify.cpp
+	"Gamefinishverify.h"
+
+1680232391 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\2dlinkedlist.cpp
+
+1681182833 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\checking.h
+	<iostream>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"Models.h"
+
+1681182833 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\checking.cpp
+	"Checking.h"
+
+1680527610 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\tutorials.h
+	<iostream>
+	<fstream>
+	"ConsoleSettings.h"
+	"Assets.h"
+
+1680528260 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\tutorials.cpp
+	"Tutorials.h"
+
+1680591723 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\leaderboard.h
+	<fstream>
+	<string>
+	<sstream>
+	"ConsoleSettings.h"
+
+1680591783 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\leaderboard.cpp
+	"leaderboard.h"
+
+1680614084 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\roundtwowithchangeleft.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Gamefinishverify.h"
+
+1681036043 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\roundtwowithchangeleft.cpp
+	"RoundTwoWithChangeLeft.h"
+
+1681182429 c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\movesuggestion.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Checking.h"
+
+1681185295 source:c:\users\ceo nhy\desktop\hcmus\y1_hk2\programming_techniques\lab\game_pikachu\movesuggestion.cpp
+	"MoveSuggestion.h"
+
+1681265597 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\2dlinkedlist.cpp
+
+1681265597 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\assets.cpp
+	"Assets.h"
+
+1681459506 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\assets.h
+	<conio.h>
+
+1681468940 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\checking.cpp
+	"Checking.h"
+
+1681308347 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\checking.h
+	<iostream>
+	"ConsoleSettings.h"
+	"Models.h"
+	"Background.h"
+
+1681312176 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\consolesettings.h
+	<Windows.h>
+	<iostream>
+	<pthread.h>
+	<iomanip>
+	"Assets.h"
+
+1681460109 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\models.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+
+1681477242 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\consolesettings.cpp
+	"ConsoleSettings.h"
+
+1681487252 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\inputplayer.cpp
+	"inputPlayer.h"
+
+1681487290 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\inputplayer.h
+	<iostream>
+	"Models.h"
+	"ConsoleSettings.h"
+	"sound.h"
+
+1681487825 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\startinghome.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"inputPlayer.h"
+	"RoundOneWithUnchangeBoard.h"
+	"RoundTwoWithChangeLeft.h"
+	"Tutorials.h"
+	"Leaderboard.h"
+	"Setting.h"
+	"Models.h"
+	"sound.h"
+
+1681487867 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\roundonewithunchangeboard.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Gamefinishverify.h"
+	"sound.h"
+
+1681486939 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\boardsettings.h
+	<iostream>
+	<Windows.h>
+	<time.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+	"Models.h"
+	"Timing.h"
+	"Checking.h"
+	"MoveSuggestion.h"
+	"Background.h"
+	"sound.h"
+
+1681308710 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\gamefinishverify.h
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	"Leaderboard.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Timing.h"
+
+1681271644 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\leaderboard.h
+	<fstream>
+	<string>
+	<sstream>
+	"ConsoleSettings.h"
+
+1681459761 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\movesuggestion.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Checking.h"
+
+1681487921 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\roundtwowithchangeleft.h
+	<iostream>
+	<stdlib.h>
+	"ConsoleSettings.h"
+	"Models.h"
+	"BoardSettings.h"
+	"Gamefinishverify.h"
+	"sound.h"
+
+1681265598 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\tutorials.h
+	<iostream>
+	<fstream>
+	"ConsoleSettings.h"
+	"Assets.h"
+
+1681487061 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\main.cpp
+	"ConsoleSettings.h"
+	"header.h"
+
+1681313630 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\header.h
+	<iostream>
+	"StartingHome.h"
+	"Assets.h"
+	<windows.h>
+	"mmsystem.h"
+
+1681459107 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\movesuggestion.cpp
+	"MoveSuggestion.h"
+
+1681477646 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\roundtwowithchangeleft.cpp
+	"RoundTwoWithChangeLeft.h"
+
+1681487736 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\startinghome.cpp
+	"StartingHome.h"
+
+1681460316 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\tutorials.cpp
+	"Tutorials.h"
+
+1681460301 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\leaderboard.cpp
+	"leaderboard.h"
+
+1681309400 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\gamefinishverify.cpp
+	"Gamefinishverify.h"
+
+1681468446 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\models.cpp
+	"Models.h"
+
+1681487039 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\roundonewithunchangeboard.cpp
+	"RoundOneWithUnchangeBoard.h"
+
+1681486997 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\boardsettings.cpp
+	"BoardSettings.h"
+
+1681308578 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\timing.h
+	<iostream>
+	"ConsoleSettings.h"
+	"Models.h"
+
+1681308565 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\timing.cpp
+	"Timing.h"
+
+1681471178 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\background.cpp
+	"Background.h"
+
+1681410203 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\background.h
+	<fstream>
+	<sstream>
+	"Models.h"
+
+1681459341 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\setting.cpp
+	"Setting.h"
+
+1681312277 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\setting.h
+	<iostream>
+	<Windows.h>
+	"Assets.h"
+	"ConsoleSettings.h"
+
+1681487583 source:c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\sound.cpp
+	"sound.h"
+
+1681177185 c:\users\asus\documents\hcmus_kh\newver_2\hcmus_gamepikachu-main (4)\hcmus_gamepikachu-main\sound.h
+	<windows.h>
+	"mmsystem.h"
+
