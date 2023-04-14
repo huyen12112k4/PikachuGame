@@ -59,11 +59,11 @@
 		<Unit filename="Setting.cpp" />
 		<Unit filename="Setting.h" />
 		<Unit filename="Sound/PressKey.wav" />
-		<Unit filename="Sound/Select_false.wav" />
+		<Unit filename="Sound/SelectFalse.wav" />
 		<Unit filename="Sound/Selectright.wav" />
 		<Unit filename="Sound/StartingHome.wav" />
 		<Unit filename="Sound/YouLose.wav" />
-		<Unit filename="Sound/YouWin.wav" />
+		<Unit filename="Sound/Youwin.wav" />
 		<Unit filename="StartingHome.cpp" />
 		<Unit filename="StartingHome.h" />
 		<Unit filename="Timing.cpp" />

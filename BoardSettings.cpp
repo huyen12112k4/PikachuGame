@@ -556,7 +556,7 @@ void setCursorForBoardLL(Players &player, int &pair) {
                             (*node1) -> content = '\0';
                             (*node2) -> content = '\0';
 
-
+                            playSoundWhenSelectRight();
                             deleteTheNodeLL(*node1);
 
                             if ((*node2) -> right)
@@ -590,7 +590,7 @@ void setCursorForBoardLL(Players &player, int &pair) {
                             }
 
                         } else {
-
+                            playSoundWhenSelectWrong();
                             (*node1) -> isError((*node1) -> x, (*node1) -> y);
                             (*node2) -> isError((*node2) -> x, (*node2) -> y);
                             int newLife = player.getLife() - 1;
