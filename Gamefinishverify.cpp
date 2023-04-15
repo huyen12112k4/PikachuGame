@@ -136,26 +136,6 @@ void updateLeaderBoard(Players player){
     ofs.close();
 }
 
-/*
-//
-void findPositionOfPlayer(Players player) {
-    int pos = 0;
-    for(int i = 0; i < next_id - 1; i++){
-        if(point < Players.point[i] - 1)
-                pos++;
-    }
-}
-void checkLeaderBoard(Players player){
-    int pos = findPositionOfPlayer(player);
-    if(pos <= 5){
-        for (int i = 4; i >= pos ; i--)
-            topPlayers[i] = topPlayers[i - 1];
-        topPlayer[i] = Players[length - 1];
-    } else
-        return;
-}
-
-*/
 
 
 

@@ -289,6 +289,8 @@ void drawPathL(Node node1, Node node2, int middle, int direction, int colorSet) 
         Sleep(400);
 
 }
+
+// ref : https://nguyenvanquan7826.wordpress.com/2014/03/25/thuat-toan-game-pokemon-pikachu/
 bool checkPathL(Node node1, Node node2, int isDelete) {
     // make sure Node1 is always on the left of Node2
     if (node1.y > node2.y)
@@ -556,10 +558,10 @@ bool checkPathU(Node node1, Node node2, int isDelete) {
         swap(node1, node2);
 
     int right = node1.y;
-    while(board[node1.x][right + 1].isSelected == true && right < 8)
+    while(board[node1.x][right + 1].isSelected == true && right < 8) // qua phải dần
         right++;
     int left = node2.y;
-    while(board[node2.x][left - 1].isSelected == true && left >= 0)
+    while(board[node2.x][left - 1].isSelected == true && left >= 0) // qua trái dần
         left--;
     if (right == 7)
         right++;
@@ -569,7 +571,7 @@ bool checkPathU(Node node1, Node node2, int isDelete) {
 
     bool check, checkForBorder = true;
     // check the middle line on the right
-    for(int j = node2.y; j <= min(right, 7); j++) {
+    for(int j = node2.y; j <= min(right, 7); j++) { // xét từ node2 -> right
         check = true;
         if (board[node2.x][j].isSelected == false) {
             checkForBorder = false;

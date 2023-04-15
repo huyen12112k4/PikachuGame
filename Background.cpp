@@ -1,5 +1,5 @@
 #include "Background.h"
-void getBackground(int cntRound) {
+void getBackground(int cntRound) { // read background from folder background
     ifstream fin;
     if (cntRound == 1)
         fin.open("./background/v1.txt", ios::in);
@@ -15,8 +15,6 @@ void getBackground(int cntRound) {
                 bg[i][j].content = fin.get();
                 bg[i][j].x = j;
                 bg[i][j].y = i;
-                //gotoxy(bg[i][j].x, bg[i][j].y);
-                //cout << bg[i][j].content;
             }
             fin.ignore();
         }
@@ -24,7 +22,7 @@ void getBackground(int cntRound) {
     }
 }
 
-void printBGNode(int x, int y, Node node1) {
+void printBGNode(int x, int y, Node node1) { // print background when delete node
     color(DEFAULT_COLOR);
     int xTmp = x, yTmp = y, width = 3, length = 7;
     if (x == bg[2][2].x  && y == bg[2][2].y ) { //Board[0][0]
@@ -35,8 +33,8 @@ void printBGNode(int x, int y, Node node1) {
             }
         }
         return;
-    } else if (x < bg[2][10].x - 2 && y >= bg[6][2].y - 2) { //
-        if (board[node1.x - 1][node1.y].isSelected == false) {
+    } else if (x < bg[2][10].x - 2 && y >= bg[6][2].y - 2) { // Board[i][0] not include board[0][0]
+        if (board[node1.x - 1][node1.y].isSelected == false) { // Check board on the top of current board
             yTmp++;
             width--;
             for (int i = yTmp; i <= yTmp + width; i++) {
@@ -56,8 +54,8 @@ void printBGNode(int x, int y, Node node1) {
             }
             return;
         }
-    } else if (x >= bg[2][10].x - 2 && y < bg[6][2].y - 2) { // Board[0][j] j khác 0
-        if(board[node1.x][node1.y - 1].isSelected == false) {
+    } else if (x >= bg[2][10].x - 2 && y < bg[6][2].y - 2) { // board[0][j] not include board[0][0]
+        if(board[node1.x][node1.y - 1].isSelected == false) { // check board on the right of current board
             xTmp++;
             length--;
             for (int i = yTmp; i <= yTmp + width; i++) {
@@ -77,12 +75,12 @@ void printBGNode(int x, int y, Node node1) {
             }
             return;
         }
-    } else if (x >= bg[2][10].x - 2 && y >= bg[6][2].y - 2) { // Cac ô còn lại
-        if(board[node1.x][node1.y - 1].isSelected == false ) {
+    } else if (x >= bg[2][10].x - 2 && y >= bg[6][2].y - 2) { // other board
+        if(board[node1.x][node1.y - 1].isSelected == false ) { // check board on the right of current board
             xTmp++;
             length--;
         }
-        if(board[node1.x - 1][node1.y].isSelected == false) {
+        if(board[node1.x - 1][node1.y].isSelected == false) { // check board on the top of current board
                 yTmp++;
                 width--;
         }
@@ -93,7 +91,7 @@ void printBGNode(int x, int y, Node node1) {
                     cout << bg[i][j].content;
             }
         }
-        if(board[node1.x - 1][node1.y - 1].isSelected == false) {
+        if(board[node1.x - 1][node1.y - 1].isSelected == false) { // check board cross with current board
             gotoxy(x, y);
             color(YELLOW);
             cout << 'o';

@@ -74,10 +74,16 @@ void printLeaderBoard() {
     }
     gotoxy(50,27);
     cout << "Press ENTER to exit ";
-    while(getMoveFromKeyboard() != 6){
-        printLeaderBoard();
+    bool isExit = false;
+    int keyArrow;
+
+    while(!isExit) {
+        if (kbhit()) {      //kbhit() is present in conio.h and used to determine if a key has been pressed or not.
+            keyArrow = getMoveFromKeyboard();
+            if (keyArrow == 6)
+                isExit = true;
+        }
     }
-    system("cls");
 
 }
 
