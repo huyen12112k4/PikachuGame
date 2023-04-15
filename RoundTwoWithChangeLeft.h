@@ -9,7 +9,7 @@
 #include "Models.h"
 #include  "BoardSettings.h"
 #include  "Gamefinishverify.h"
-#include "sound.h"
+#include "Sound.h"
 using namespace std;
 
 void openRound2(Players &player);

@@ -7,14 +7,14 @@
 
 #include "Assets.h"
 #include "ConsoleSettings.h"
-#include "inputPlayer.h"
+#include "InputPlayer.h"
 #include "RoundOneWithUnchangeBoard.h"
 #include "RoundTwoWithChangeLeft.h"
 #include "Tutorials.h"
 #include "Leaderboard.h"
 #include "Setting.h"
 #include "Models.h"
-#include "sound.h"
+#include "Sound.h"
 using namespace std;
 
 int countHorizontalSeperator(int maxWidth, int length);

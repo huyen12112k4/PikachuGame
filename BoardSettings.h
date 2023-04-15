@@ -14,7 +14,7 @@
 #include "Checking.h"
 #include "MoveSuggestion.h"
 #include "Background.h"
-#include "sound.h"
+#include "Sound.h"
 using namespace std;
 
 

@@ -1,5 +1,5 @@
 #include "ConsoleSettings.h"
-#include "header.h"
+#include "Header.h"
 
 bool timeOff;
 bool finishGame;

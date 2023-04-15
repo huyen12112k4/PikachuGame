@@ -1,5 +1,5 @@
 #include<windows.h>
-#include "mmsystem.h"
+#include <mmsystem.h>
 
 void playSoundWhenStartingGame();
 void playSoundWhenPressKey();
